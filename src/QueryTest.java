@@ -44,7 +44,6 @@ public class QueryTest {
 			System.out.println(hits.scoreDocs[i].score + ":" + document.get("path"));
 		}
 		System.out.println(System.currentTimeMillis() - start);
-		// sortResult(all) ;
 		System.out.println("共查出记录" + hits.totalHits + "条");
 	}
 }
