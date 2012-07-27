@@ -1,6 +1,3 @@
 *.class
-
+/bin:q
 # Package Files #
-*.jar
-*.war
-*.ear
